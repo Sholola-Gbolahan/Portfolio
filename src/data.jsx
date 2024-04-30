@@ -29,6 +29,7 @@ export const skills = [
     icon: <FaReact className='h-16 w-16 text-emerald-500' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
+ 
 ];
 
 export const projects = [
