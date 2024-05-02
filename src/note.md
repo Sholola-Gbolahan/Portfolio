@@ -24,3 +24,10 @@ Skills Section
 About Section
 ########################################
 1. Learnt the use of Leading-loose for adding line-height to paragrah text
+
+########################################
+Project Section
+########################################
+- explored "projects" array in data.jsx
+- created Projects and ProjectsCard components
+- setup return and render in App.jsx 
