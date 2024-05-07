@@ -1,6 +1,11 @@
 import React from "react";
 import heroImg from "../assets/hero.svg";
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import {
+  FaGithubSquare,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitterSquare,
+} from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -9,27 +14,29 @@ const Hero = () => {
         <article>
           <h1 className="text-7xl font-bold tracking-wider"> I'm Gbolahan</h1>
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
-            Front-End Developer
+            Front-End Developer & UX Enthusiast
           </p>
           <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
             turning ideas into interactive reality
           </p>
           <div className="flex gap-x-4 mt-4">
-            <a href="#">
+            <a href="https://github.com/Sholola-Gbolahan" target="_blank">
               <FaGithubSquare className=" h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="#">
-              <FaLinkedin  className=" h-8 w-8 text-slate-500 hover:text-black duration-300" />
+            <a href="https://www.linkedin.com/in/sholola-gbolahan-887095191/" target="_blank">
+              <FaLinkedin className=" h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="#">
-              <FaTwitterSquare  className=" h-8 w-8 text-slate-500 hover:text-black duration-300" />
+            <a href="https://twitter.com/ShololaGbolahan" target="_blank">
+              <FaTwitterSquare className=" h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-
+            <a href="https://www.instagram.com/sholola_gbolahan/?hl=en" target="_blank">
+              <FaInstagram  className=" h-8 w-8 text-slate-500 hover:text-black duration-300" />
+            </a>
           </div>
         </article>
 
         <article className="hidden md:block">
-            <img src={heroImg} alt=" hero image" />
+          <img src={heroImg} alt=" hero image" />
         </article>
       </div>
     </div>

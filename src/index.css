@@ -2,8 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    .align-element {
-        @apply mx-auto max-w-7xl px-8
-    }
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-7xl px-8;
+  }
+}
+
+/* .swiper-button-next::after,
+.swiper-button-prev::after{
+    display:none;
+
+}
+
+.swiper-button-next{
+    background-image: url(./assets//image/next.png);
+}
+
+.swiper-button-prev{
+    transform: rotate(180deg);
+    background-image: url(./assets//image/next.png);
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+} */
+.swiper-pagination {
+  position: static;
+  margin-top: 30px;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.swiper-pagination-bullet{
+    width:15px;
+    height:15px;
+}
+.swiper-pagination-bullet-active {
+  background: rgb(5 150 105 );
+  width:20px;
+  height:20px;
+
 }
