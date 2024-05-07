@@ -36,7 +36,7 @@ const Projects = () => {
             prevEl: swiperNavPrevRef.current,
             nextEl: swiperNavNextRef.current,
           }}
-          slidesPerView={3}
+          slidesPerView={1}
           breakpoints={{
             500: {
               slidesPerView: 1,
