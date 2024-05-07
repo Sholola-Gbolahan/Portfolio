@@ -4,7 +4,7 @@
 
 @layer components {
   .align-element {
-    @apply mx-auto max-w-7xl px-8;
+    @apply lg:mx-auto mx-6 max-w-7xl px-5;
   }
 }
 

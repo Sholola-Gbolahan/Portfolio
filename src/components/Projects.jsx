@@ -21,13 +21,14 @@ const Projects = () => {
   const swiperNavNextRef = useRef(null);
 
   return (
-    <section className="py-20 align-element" id="projects">
+    <section className="py-20 align-element " id="projects">
       <SectionTitle text="Web creation" />
 
-      <div className="flex   gap-6 items-center py-16 justify-between">
-        <div ref={swiperNavPrevRef}>
-          <MdArrowBackIosNew className="h-10 w-10 shadow-md p-2 cursor-pointer hover:text-emerald-900" />
+      <div className=" flex items-center gap-6 py-16 justify-between">
+        <div ref={swiperNavPrevRef} className="hidden md:block">
+          <MdArrowBackIosNew className="h-10 w-10 shadow-md p-2 cursor-pointer hover:bg-emerald-500 bg-gray-200" />
         </div>
+
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={20}
@@ -65,9 +66,8 @@ const Projects = () => {
             );
           })}
         </Swiper>
-
-        <div ref={swiperNavNextRef}>
-          <MdArrowForwardIos className="h-10 w-10 shadow-md p-2 cursor-pointer hover:text-emerald-900" />
+        <div ref={swiperNavNextRef} className="hidden md:block">
+          <MdArrowForwardIos className="h-10 w-10 shadow-md p-2 cursor-pointer hover:bg-emerald-500 bg-gray-200" />
         </div>
       </div>
     </section>
