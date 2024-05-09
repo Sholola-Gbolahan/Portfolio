@@ -11,7 +11,7 @@ const About = () => {
             <article>
                 <SectionTitle text="Little About Me" />
                 <p className='text-slate-600 mt-8 leading-loose'>
-                    Detailed oriented and qualified Fronted Developer able to collaborate with a team, 2+ years experience with JavaScript Libraries React, Bootstrap and Wordpress, able to work in an agile scrum environment. I help companies like Gurugeeks(IT), Farmrequest, to build client-side web applications and to translate UI/UX wireframe (Like Figma) for companies and customer needs into functional, user friendly, and appealing interactive applications
+                Results-driven Frontend Developer with 2+ years of experience in JavaScript libraries (React,Bootstrap, Tailwind css, Styled Components, WordPress) and agile Scrum environments. Proven ability to collaborate with teams and deliver high-quality client-side web applications that meet customer needs. Skilled in translating UI/UX wireframes into functional, user-friendly, and visually appealing interactive applications. Proficient in tools like Figma. Dedicated to delivering exceptional results and driving business success.
                 </p>
             </article>
 

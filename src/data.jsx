@@ -5,6 +5,8 @@ import MixMaster from "./assets/image/MixMaster.jpg";
 import Youtube from "./assets/image/Youtube.png";
 import Cart from "./assets/image/Cart.png";
 import ERP from "./assets/image/ERP.png";
+import BeHold from "./assets/image/Be-hold.png";
+import BeHive from "./assets/image/behiveng.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -85,5 +87,25 @@ export const projects = [
     year: "2024",
     text: "a product cart that enables users to effortlessly remove, increase quantities, and clear items.",
     stack: ["react", "Redux", "Axios"],
+  },
+  {
+    id: nanoid(),
+    title: "Behive Website",
+    img: BeHive,
+    url: "www.behiveng.com ",
+    github: "",
+    year: "2024",
+    text: "",
+    stack: ["wordpress"],
+  },
+   {
+    id: nanoid(),
+    title: "Be-Global Website",
+    img: BeHold,
+    url: "https://www.be-holdco.com/",
+    github: "",
+    year: "2024",
+    text: " Lead the team that deliver a ",
+    stack: ["Wordpress"],
   },
 ];

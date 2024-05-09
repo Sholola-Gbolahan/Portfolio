@@ -7,7 +7,7 @@ import SkillsCard from "./SkillsCard";
 import { MdArrowForwardIos, MdArrowBackIosNew } from "react-icons/md";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Navigation, Autoplay } from "swiper/modules";
+import { Pagination,Navigation, Autoplay } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -33,6 +33,7 @@ const Skills = () => {
           loop={true}
           slidesPerView={1}
           autoplay={{ delay: "4000" }}
+          
           breakpoints={{
             500: {
               slidesPerView: 1,
@@ -47,11 +48,7 @@ const Skills = () => {
               spaceBetween: 20,
             },
           }}
-          pagination={{ clickable: true }}
-          navigation={{
-            prevEl: skillsPrevRef.current,
-            nextEl: skillsNextRef.current,
-          }}
+        
           onInit={(swiper) => {
             swiper.params.navigation.prevEl = skillsPrevRef.current;
             swiper.params.navigation.nextEl = skillsNextRef.current;
