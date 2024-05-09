@@ -34,6 +34,7 @@ const Projects = () => {
           spaceBetween={20}
           pagination={{ clickable: true }}
           autoplay={{delay:'4000'}}
+          loop
           navigation={{
             prevEl: swiperNavPrevRef.current,
             nextEl: swiperNavNextRef.current,
