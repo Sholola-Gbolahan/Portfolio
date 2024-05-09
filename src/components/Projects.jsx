@@ -33,6 +33,7 @@ const Projects = () => {
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={20}
           pagination={{ clickable: true }}
+          autoplay={{delay:'4000'}}
           navigation={{
             prevEl: swiperNavPrevRef.current,
             nextEl: swiperNavNextRef.current,
