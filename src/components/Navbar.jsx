@@ -43,7 +43,8 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className=" w-full h-[100vh] fixed z-10" onClick={closeMobileNav}></div>
+
+      <div className={`w-full h-[100vh] fixed z-10 ${visible ? 'visible':'hidden'} `}onClick={closeMobileNav}></div>
 
       {/* Mobile Nav */}
       <nav className="md:hidden  bg-black  py-6 transition ease-in sticky top-0 z-20">
