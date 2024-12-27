@@ -11,7 +11,7 @@ const About = () => {
         <article>
           <SectionTitle text="Little About Me" />
           <p className="text-slate-600 mt-8 leading-loose">
-            Results-driven Frontend Developer with 2+ years of experience in
+            Results-driven Software Developer with 3+ years of experience in
             JavaScript libraries (React) , Bootstrap, WordPress, Tailwind Css,
             Styled Component and agile Scrum environments. Proven ability to
             collaborate with teams and deliver high-quality client-side web
