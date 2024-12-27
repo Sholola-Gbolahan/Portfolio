@@ -1,19 +1,20 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from "react";
 
 const Tabs = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(tabs[0]?.id || null);
 
   return (
-    <div className="w-full max-w-3xl mx-auto">
+    <div className="w-full mx-auto mt-10">
       {/* Tab Navigation */}
-      <div className="flex space-x-4 border-b border-gray-300">
+      <div className="flex justify-center space-x-4 mb-10">
         {tabs.map((tab) => (
           <button
             key={tab.id}
-            className={`py-2 px-4 text-sm font-medium ${
+            className={`p-4 text-md font-medium  ${
               activeTab === tab.id
-                ? "text-blue-600 border-b-2 border-blue-600"
-                : "text-gray-600 hover:text-blue-600"
+                ? " bg-emerald-600 text-white rounded"
+                :  "bg-emerald-300 text-white rounded"
             }`}
             onClick={() => setActiveTab(tab.id)}
           >

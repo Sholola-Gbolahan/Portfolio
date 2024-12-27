@@ -1,19 +1,26 @@
-import { nanoid } from "nanoid";
-import React from "react";
-import { FaHtml5, FaJs, FaReact, FaWordpress } from "react-icons/fa";
-import MixMaster from "./assets/image/MixMaster.jpg";
-import Youtube from "./assets/image/Youtube.png";
-import Cart from "./assets/image/Cart.png";
-import ERP from "./assets/image/ERP.png";
-import BeHold from "./assets/image/Be-hold.png";
-import BeHive from "./assets/image/behiveng.png";
+import { nanoid } from "nanoid"
+import React from "react"
+import { FaHtml5, FaJs, FaNodeJs,FaReact, FaWordpress } from "react-icons/fa"
+import Youtube from "./assets/Youtube.png"
+import BeHold from "./assets/image/Be-hold.png"
+import {
+  Realraidz,
+  ProjectEnable,
+  MixMaster,
+  Behive,
+  Jobify,
+  Unplash,
+  Comfy,
+  Access360,
+  ProductCart,
+} from "./assets"
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#skills", text: "skills" },
   { id: nanoid(), href: "#about", text: "about" },
   { id: nanoid(), href: "#projects", text: "projects" },
-];
+]
 
 export const skills = [
   {
@@ -36,52 +43,98 @@ export const skills = [
   },
   {
     id: nanoid(),
+    title: "Nodejs",
+    icon: <FaNodeJs className="h-16 w-16 text-emerald-500"/>,
+    text: "My Node.js skills allow me to effectively solve complex problems on both the client and server sides. .",
+  },
+  {
+    id: nanoid(),
     title: "Wordpress",
     icon: <FaWordpress className="h-16 w-16 text-emerald-500" />,
     text: " With advanced WordPress skills, I expertly build dynamic and static content, crafting engaging websites that blend functionality with aesthetics. ",
   },
-];
+]
 
 export const projects = [
   {
     id: nanoid(),
-    title: "Be-Global ERP System ",
-    img: ERP,
-    url: "https://www.begnh.com/customer",
+    type: "software",
+    title: "Comfy Store ",
+    img: Comfy,
+    url: "https://comfy-store-rho-gray.vercel.app/",
     year: "2023",
-    madeAt: "Gurugeeks",
-    github: "https://github.com/Gurugeeksroyalty-ltd/Be-Global_Frontend",
-    text: "An ERP system that oversees the operations of restaurants, studios, and short-term rental bookings",
-    stack: ["React", "Redux","scss"],
+    madeAt: "",
+    github: "",
+    text: "The website Comfy Store is an e-commerce platform designed for selling furniture and home accessories. It provides a clean, user-friendly interface for browsing and purchasing products. The site is visually appealing and functional, focusing on providing an easy and enjoyable shopping experience for customers looking to furnish their spaces.",
+    stack: ["React", "Redux", "Tailwind", "NodeJs"],
   },
   {
     id: nanoid(),
+    type: "software",
+    title: "Access360",
+    img: Access360,
+    url: "https://projectenable-access360.vercel.app/",
+    year: "2024",
+    madeAt: "",
+    github: "",
+    text: "Access 360 is a platform dedicated to showcasing data on people with disabilities across Africa. It provides a comprehensive overview of this population, organizing data by country, state, and local government area. This detailed breakdown allows for a nuanced understanding of the demographics, needs, and circumstances of people with disabilities at various levels of governance, facilitating targeted support and policy development.",
+    stack: ["React", "Redux", "Tailwind", "WP API"],
+  },
+  {
+    id: nanoid(),
+    type: "software",
+    title: "Jobify",
+    img: Jobify,
+    url: "https://jobify-sand-alpha.vercel.app/landing",
+    year: "2023",
+    madeAt: "",
+    github: "",
+    text: "Jobify is a streamlined job posting and search platform. Users can easily post new job openings with detailed descriptions, while job seekers can browse a comprehensive list of available positions. The application supports full CRUD (Create, Read, Update, Delete) operations, allowing administrators and authorized users to manage job listings effectively, including editing, updating, and deleting postings as needed.",
+    stack: ["React", "Redux", "Tailwind", "NodeJs"],
+  },
+
+  {
+    id: nanoid(),
+    type: "software",
+    title: "Unplash",
+    img: Unplash,
+    url: "https://unsplash-image-steel.vercel.app/",
+    year: "2023",
+    madeAt: "",
+    github: "",
+    text: "This image display project leverages the Unsplash API to offer a seamless browsing and downloading experience. Users can search for images using keywords, and the application dynamically displays relevant results. All images are sourced from Unsplash and are available for free download in various resolutions.",
+    stack: ["React", "Redux", "Tailwind"],
+  },
+  {
+    id: nanoid(),
+    type: "software",
     title: "Youtube Search",
     img: Youtube,
     url: "https://youtube-search-seven-mu.vercel.app/",
     github: "https://github.com/Sholola-Gbolahan/YouTube-Browser-Application",
     year: "2023",
     madeAt: "",
-    text: "This project utilizes the YouTube free API to watch YouTube videos based on search queries.",
-    stack: ["react", "Axios","Semantic Ui"],
+    text: "This project leverages the YouTube API to provide a custom video display interface. It implements search functionality to retrieve videos based on user queries. ",
+    stack: ["React", "Axios", "Semantic Ui"],
   },
   {
     id: nanoid(),
+    type: "software",
     title: "Mix Master Cocktail",
     img: MixMaster,
     url: "https://mix-master-eight.vercel.app/",
     github: "https://github.com/Sholola-Gbolahan/MixMaster",
     year: "2024",
     madeAt: "",
-    stack: ["react","Styled Component"],
+    stack: ["react", "Styled Component"],
     text: "the ultimate party sidekick app that fetches cocktails from the hilarious Cocktails DB API.",
-
   },
- 
+
   {
     id: nanoid(),
+    type: "software",
     title: "Products Cart",
-    img: Cart,
+    img: ProductCart,
     url: "https://product-cart-puce.vercel.app/ ",
     github: "https://github.com/Sholola-Gbolahan/Redux-Toolkit",
     year: "2024",
@@ -90,25 +143,51 @@ export const projects = [
   },
   {
     id: nanoid(),
+    type: "wordpress",
+    title: "Project Enable Africa",
+    img: ProjectEnable,
+    url: "https://projectenable.africa/",
+    github: "",
+    year: "2024",
+    madeAt: "",
+    text: "The Project Enable Africa website advocates for the inclusion and empowerment of persons with disabilities in Nigeria. It highlights programs like the Workplace Disability Inclusion Program, Youth Employment Program, and Business Support Program, fostering awareness and providing resources for accessibility. The site shares impact stories, training opportunities, and policy tools, inviting stakeholders to support its mission through donations and partnerships, driving societal change for an inclusive and equitable environmen",
+    stack: ["Elementor", "figma"],
+  },
+  {
+    id: nanoid(),
+    type: "wordpress",
+    title: "Real Raidz website",
+    img: Realraidz,
+    url: "https://realraidz.co.uk/",
+    github: "",
+    year: "2024",
+    madeAt: "",
+    text: "The website realraidz.co.uk showcases the journey of Real Raidz, an individual who intertwines the disciplines of boxing and music. The site emphasizes his transformation from challenging beginnings to becoming both a dedicated boxer and a passionate rapper. Visitors can explore his amateur boxing record, music releases, and gain insights into his training routines and creative processes. The platform also offers access to his latest tracks, music videos, and behind-the-scenes content, reflecting his commitment to merging physical discipline with artistic expression.",
+    stack: ["Elementor", "figma"],
+  },
+  {
+    id: nanoid(),
+    type: "wordpress",
     title: "Behive Website",
-    img: BeHive,
+    img: Behive,
     url: "https://www.behiveng.com ",
     github: "",
     year: "2024",
-    madeAt:"Gurugeeks",
+    madeAt: "Gurugeeks",
     text: "A member centric website that efforlessly showcase client services in resturant & Bar, Events and rental",
 
-    stack: ["wordpress","elementor","figma"],
+    stack: ["elementor", "figma"],
   },
-   {
+  {
     id: nanoid(),
+    type: "wordpress",
     title: "Be-Global Website",
     img: BeHold,
     url: "https://www.be-holdco.com/",
     github: "",
     year: "2024",
-    madeAt:"Gurugeeks",
+    madeAt: "Gurugeeks",
     text: "A holding website that clearly highlight the company subsideries with Engaging visuals representing the subsidiaries.",
-    stack: ["Wordpress","Elementor","figma"],
+    stack: ["Elementor", "figma"],
   },
-];
+]
