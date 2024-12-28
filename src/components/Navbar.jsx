@@ -21,7 +21,7 @@ const Navbar = () => {
       <nav className="bg-black sticky top-0 z-20 hidden md:block">
         <div className="align-element py-2 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-6  justify-between">
           <h2 className="text-3xl font-bold text-white ">
-            Gbolahan<span className="text-emerald-600">-Sholola</span>
+            Web<span className="text-emerald-600">Dev</span>
           </h2>
 
           <div className="flex gap-x-6">
