@@ -19,11 +19,13 @@ const ProjectCards = ({
   const [readMore, setReadMore] = useState(false)
   return (
     <article className="px-3 py-7 block duration-300 ">
+      <a href={url} target="_blank">
       <img
         src={img}
         alt={title}
         className="w-full object-fill rounded-t-lg h-64"
       />
+      </a>
 
       <div className="capitalize py-2 pt-8">
         <h2 className="text-xl tracking-wide font-medium text-center  ">
