@@ -231,7 +231,7 @@ export const projects = [
     type: "software",
     title: "African American University",
     img: AfricanAmerican,
-    url: "https://africanamericanuniversiy.com/",
+    url: "https://africanamericanuniversity.org",
     github: "",
     year: "2025",
     madeAt: "",
