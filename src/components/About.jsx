@@ -11,9 +11,9 @@ const About = () => {
         <article>
           <SectionTitle text="Little About Me" />
           <p className="text-slate-600 mt-8 leading-loose">
-            Results-driven Web Developer with 3+ years of experience in
-            JavaScript libraries (React) , Bootstrap, WordPress, Tailwind Css,
-            Styled Component and agile Scrum environments. Proven ability to
+            Results-driven Web Developer with 4+ years of experience in
+            JavaScript libraries (React) , Nextjs, Bootstrap, WordPress, Tailwind Css,
+            Styled Component and agile Scrum environments etc. Proven ability to
             collaborate with teams and deliver high-quality client-side web
             applications that meet customer needs. Skilled in translating UI/UX
             wireframes into functional, user-friendly, and visually appealing

@@ -9,10 +9,10 @@ import {
 
 const Hero = () => {
   return (
-    <div className="bg-emerald-100 py-24">
-      <div className=" align-element grid md:grid-cols-2 items-center gap-11" >
-        <article>
-          <h1 className="text-7xl font-bold tracking-wider"> I'm Gbolahan</h1>
+    <div className="bg-emerald-100 py-24" id="home">
+      <div className=" align-element grid md:grid-cols-2 items-center gap-24" >
+        <article >
+          <h1 className="lg:text-7xl text-3xl font-bold tracking-wider"> I'm Oluwagbolahan</h1>
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
            Web Developer
           </p>

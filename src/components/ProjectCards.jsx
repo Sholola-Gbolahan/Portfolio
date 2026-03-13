@@ -31,12 +31,12 @@ const ProjectCards = ({
         <h2 className="text-xl tracking-wide font-medium text-center  ">
           {title}
         </h2>
-        <p className="mt-4 text-md text-slate-700 leading-normal text-center">
+        {/* <p className="mt-4 text-md text-slate-700 leading-normal text-center">
         {readMore ? text : `${text.substring(0, 150)}...`}<br/>
         <button className="text-emerald-400 font-semibold" onClick={() => setReadMore(!readMore)}>
             {readMore ? " show less" : " read more"}
           </button>
-        </p>
+        </p> */}
         {/* Stack */}
         <div className="mt-5 flex gap-x-2 justify-center overflow-auto">
           {stack.map((item, index) => (

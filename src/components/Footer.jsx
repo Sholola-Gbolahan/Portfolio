@@ -9,7 +9,7 @@ import {
 const Footer = () => {
   return (
     <div className='flex max-sm:flex-col md:flex-row justify-between py-8 px-12 items-center bg-emerald-700 text-slate-200  gap-4 '>
-        <h1>Portfolio-V1 2024. All rights reserved.</h1>
+        <h1>Portfolio-V1 {new Date().getFullYear()}. All rights reserved.</h1>
         <div className="flex gap-x-4">
             <a href="https://github.com/Sholola-Gbolahan" target="_blank">
               <FaGithubSquare className=" h-8 w-8 text-emerald-200 hover:text-black duration-300" />
@@ -24,7 +24,7 @@ const Footer = () => {
               <FaInstagram  className=" h-8 w-8 text-emerald-200  hover:text-black duration-300" />
             </a>
           </div>
-       <h1>Design By Sholola Gbolahan</h1>
+       <h1>Design By Sholola Oluwagbolahan</h1>
     </div>
   )
 }

@@ -1,14 +1,20 @@
 import { nanoid } from "nanoid"
 import React from "react"
-import { FaHtml5, FaJs, FaNodeJs,FaReact, FaWordpress } from "react-icons/fa"
+import { FaHtml5, FaJs, FaNodeJs,FaReact, FaWordpress,FaAngular} from "react-icons/fa"
+
+import { TbBrandNextjs } from "react-icons/tb";
 import Youtube from "./assets/Youtube.png"
-import BeHold from "./assets/image/Be-hold.png"
+
 import {
   Realraidz,
   ProjectEnable,
   MixMaster,
-  Behive,
+Rexera,
+Rexford,
+AfricanAmerican,
   Jobify,
+  Facity,
+  Lafiami,
   Unplash,
   Comfy,
   Access360,
@@ -46,6 +52,18 @@ export const skills = [
     title: "Nodejs",
     icon: <FaNodeJs className="h-16 w-16 text-emerald-500"/>,
     text: "My Node.js skills allow me to effectively solve complex problems on both the client and server sides. .",
+  },
+   {
+    id: nanoid(),
+    title: "Nextjs",
+    icon: <TbBrandNextjs  className="h-16 w-16 text-emerald-500"/>,
+    text: "With advanced Next.js skills, I create high-performance web applications that leverage server-side rendering and static site generation for optimal user experiences.",
+  },
+    {
+    id: nanoid(),
+    title: "Angular Js",
+    icon: <FaAngular className="h-16 w-16 text-emerald-500"/>,
+    text: "With advanced Angular skills, I create dynamic and responsive web applications, leveraging its powerful features to build scalable and efficient solutions.",
   },
   {
     id: nanoid(),
@@ -150,7 +168,6 @@ export const projects = [
     github: "",
     year: "2024",
     madeAt: "",
-    text: "The Project Enable Africa website advocates for the inclusion and empowerment of persons with disabilities in Nigeria. It highlights programs like the Workplace Disability Inclusion Program, Youth Employment Program, and Business Support Program, fostering awareness and providing resources for accessibility. The site shares impact stories, training opportunities, and policy tools, inviting stakeholders to support its mission through donations and partnerships, driving societal change for an inclusive and equitable environmen",
     stack: ["Elementor", "figma"],
   },
   {
@@ -162,32 +179,63 @@ export const projects = [
     github: "",
     year: "2024",
     madeAt: "",
-    text: "The website realraidz.co.uk showcases the journey of Real Raidz, an individual who intertwines the disciplines of boxing and music. The site emphasizes his transformation from challenging beginnings to becoming both a dedicated boxer and a passionate rapper. Visitors can explore his amateur boxing record, music releases, and gain insights into his training routines and creative processes. The platform also offers access to his latest tracks, music videos, and behind-the-scenes content, reflecting his commitment to merging physical discipline with artistic expression.",
     stack: ["Elementor", "figma"],
   },
-  {
-    id: nanoid(),
-    type: "wordpress",
-    title: "Behive Website",
-    img: Behive,
-    url: "https://www.behiveng.com ",
-    github: "",
-    year: "2024",
-    madeAt: "Gurugeeks",
-    text: "A member centric website that efforlessly showcase client services in resturant & Bar, Events and rental",
 
-    stack: ["elementor", "figma"],
+  {
+    id: nanoid(),
+    type: "wordpress",
+    title: "Lafiami",
+    img: Lafiami,
+    url: "https://lafiami.com/",
+    github: "",
+    year: "2026",
+    madeAt: "",
+    stack: ["Elementor", "figma"],
   },
   {
     id: nanoid(),
     type: "wordpress",
-    title: "Be-Global Website",
-    img: BeHold,
-    url: "https://www.be-holdco.com/",
+    title: "Facity",
+    img: Facity,
+    url: "https://facity.co/",
     github: "",
-    year: "2024",
-    madeAt: "Gurugeeks",
-    text: "A holding website that clearly highlight the company subsideries with Engaging visuals representing the subsidiaries.",
+    year: "2025",
+    madeAt: "",
     stack: ["Elementor", "figma"],
   },
+  {
+    id: nanoid(),
+    type: "wordpress",
+    title: "Rexera",
+    img: Rexera,
+    url: "https://rexera.ng/",
+    github: "",
+    year: "2025",
+    madeAt: "",
+    stack: ["Elementor", "figma"],
+  },
+  {
+    id: nanoid(),
+    type: "wordpress",
+    title: "Rexford",
+    img: Rexford,
+    url: "https://rexfordcarrentals.com/",
+    github: "",
+    year: "2025",
+    madeAt: "",
+    stack: ["Elementor", "figma"],
+  },
+  {
+    id: nanoid(),
+    type: "software",
+    title: "African American University",
+    img: AfricanAmerican,
+    url: "https://africanamericanuniversiy.com/",
+    github: "",
+    year: "2025",
+    madeAt: "",
+    stack: ["Angular", "Nodejs","figma"],
+  }
+ 
 ]

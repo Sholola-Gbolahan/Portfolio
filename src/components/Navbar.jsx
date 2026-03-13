@@ -38,7 +38,7 @@ const Navbar = () => {
             })}
           </div>
           <div className="text-white">
-            <h4>08121622738</h4>
+            <h4>09074160288</h4>
             <h4>Shololagbolahan@gmail.com</h4>
           </div>
         </div>

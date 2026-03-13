@@ -7,14 +7,14 @@ const Tabs = ({ tabs }) => {
   return (
     <div className="w-full mx-auto mt-10">
       {/* Tab Navigation */}
-      <div className="flex justify-center space-x-4 mb-10">
+      <div className="mb-10 flex flex-wrap gap-5">
         {tabs.map((tab) => (
           <button
             key={tab.id}
-            className={`p-4 text-md font-medium  ${
+            className={`p-4 text-md font-bold  ${
               activeTab === tab.id
                 ? " bg-emerald-600 text-white rounded"
-                :  "bg-emerald-300 text-white rounded"
+                :  "bg-emerald-300 text-black rounded"
             }`}
             onClick={() => setActiveTab(tab.id)}
           >
